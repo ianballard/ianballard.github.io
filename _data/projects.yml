@@ -6,7 +6,7 @@
 - name: Cloud Management Platform
   description: A cloud agnostic API Gateway application built on K8s that can help any organization scaffold
     infrastructure with ease. It allows users to choose what cloud provider (AWS, GCP, Azure) or CMP (Terraform, vRA)
-    and what kind of resource they wanted and we take care of the rest. The languages used are JavaScript (React), Go,
+    and what kind of resource they want and we take care of the rest. The languages used are JavaScript (React), Go,
     and Python. It integrates with Okta for authentication and authorization, and utilizes Kong API Gateway to transform
     and standardize the requests and responses.
 
