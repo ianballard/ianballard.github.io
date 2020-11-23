@@ -1,36 +1,37 @@
-header: Say something about what you're good at
+header: I have the recipe for success
 
-subheader: Give some more context
+subheader: Whether it's a brand new project, or an old one that needs work,
+  I will be able to get it to where you want it to be.
 
 skill_list:
-  - name: Skill 1
-    description: A quick sentence or two describing your skill
+  - name: Speed
+    description: Super-fast ramp up, response times, and development
 
-  - name: Skill 2
-    description: A quick sentence or two describing your skill
+  - name: High Quality
+    description: Attentiveness to operational excellence, security, reliability, performance efficiency,
+      and cost optimization
 
-  - name: Skill 3
-    description: A quick sentence or two describing your skill
+  - name: Great Communication
+    description: Easy to talk to and translate business requirements into product features
 
-#If you have certifications, talk about them here
 certifications:
-  - name: Certification 1
+  - name: AWS Solutions Architect
     topics:
-      - Topic 1A
-      - Topic 1B
-      - Topic 1C
-      - Topic 1D
+      - AWS principles and services
+      - Lambda, DynamoDB, S3
+      - VPC, EC2, RDS
+      - Kenisis, Redshift, Quicksight
 
-  - name: Certification 2
+  - name: SQL Server Professional
     topics:
-      - Topic 2A
-      - Topic 2B
-      - Topic 2C
-      - Topic 2D
+      - Developing SQL Databases
+      - Querying Data with Transact-SQL
+      - Views, Stored Procedures
+      - Index Optimization, Transaction Management
 
-  - name: Certification 3
+  - name: Java Professional
     topics:
-      - Topic 3A
-      - Topic 3B
-      - Topic 3C
-      - Topic 3D
+      - Advanced Class Design
+      - Concurrency
+      - Generics and Collections
+      - Functional Interfaces

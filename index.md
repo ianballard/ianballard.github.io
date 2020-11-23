@@ -1,7 +1,7 @@
 ---
-title: Your Website
-author: Your Name Here
-description: "A quick website description"
+title: Ian Ballard
+author: Ian Ballard
+description: "A senior software engineer that is ready to deliver your next web app"
 layout: default
 permalink: /
 ---

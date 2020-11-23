@@ -1,10 +1,3 @@
-#LinkedIn
-#https://www.linkedin.com/in/{{LinkedInUsername}}/
-linkdin_username: /
-
-#GitHub
-#https://github.com/{{GitHubUsername}}
-github_username: /
-
-#The email you'd like people to contact you with.
-email: /
+linkdin_username: ian-ballard-85470785
+github_username: iballard95
+email: ianballard.dev@gmail.com

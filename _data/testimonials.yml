@@ -1,11 +1,22 @@
-#If you have some testimonials list them here
-
-- quote: Thanks for being great!
+- quote: Thanks for all your hard work and amazing contributions to this important milestone. You got up to speed
+    quickly and crushed multiple key items for us, man. It was huge. Seriously, thank you.
   person:
-    name: John Doe
-    title: CEO, Company ABC
+    name: Mike Martin
+    title: CTO, aptihealth
 
-- quote: Thanks for being awesome!
+- quote: Ian killed it as always.
   person:
-    name: Jane Doe
-    title: COO, Company ABC
+    name: Darrin Jahnel
+    title: CEO, Jahnel Group
+
+- quote: If anyone is looking for guidance on how to begin the journey towards being a technical bad-a**, go talk to
+    Ian Ballard. This guy is putting up monster hours and devouring content. Great job Ian.
+  person:
+    name: Jason Jahnel
+    title: COO, Jahnel Group
+
+- quote: Ian's true care for all of us to succeed and the amount of time and energy he put into really helping us
+    better ourselves
+  person:
+    name: Anonymous(Student Survey Response)
+    title: Coworker, Jahnel Group
