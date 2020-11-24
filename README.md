@@ -1,3 +1,3 @@
-## iballard95.github.io is built using the [iballard95/personal-website-starter](https://github.com/iballard95/personal-website-starter) template.
+## ianballard.github.io is built using the [ianballard/personal-website-starter](https://github.com/iballard95/personal-website-starter) template.
 
-## [Check out the live site here!](https://iballard95.github.io/)
+## [Check out the live site here!](https://ianballard.github.io/)
