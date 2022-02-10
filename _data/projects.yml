@@ -1,3 +1,6 @@
+- name: TuffToken - Blockchain & DeFi
+  description: A DeFi asset built on the Etherium blockhain.
+
 - name: Telehealth
   description: A serverless application built on AWS that helps people suffering with behavioral disorders get the
     help they need. The languages used are JavaScript (React) and python. The AWS services used are CloudFront, S3,
