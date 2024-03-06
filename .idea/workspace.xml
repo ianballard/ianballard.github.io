@@ -5,30 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2c6d08e-bf3b-4bac-a84b-14892e89ca7a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/about.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/contact.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/projects.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/skills.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/testimonials.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/intro.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/nav.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/skills.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/testimonials.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/hero.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/texture-1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/texture-2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/data.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/data.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709599502812</updated>
       <workItem from="1709599503958" duration="5270000" />
-      <workItem from="1709687312292" duration="11587000" />
+      <workItem from="1709687312292" duration="11869000" />
     </task>
     <servers />
   </component>

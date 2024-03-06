@@ -97,7 +97,7 @@ certifications:
           end:
           organization: Amazon Web Services (AWS)
           credentialid: RM0RQYQK32V4Q73M
-          credentialurl: https://aws.amazon.com/certification/certified-solutions-architect-associate/
+          credentialurl: aws.amazon.com/certification/certified-solutions-architect-associate/
           credentialname: AWS
           details: |
             AWS Certified Solutions Architect - Associate showcases knowledge and skills in AWS technology, across a 
@@ -108,7 +108,7 @@ certifications:
           end:
           organization: Microsoft
           credentialid:
-          credentialurl: https://learn.microsoft.com/en-us/credentials/certifications/mcsa-sql2016-database-development-certification/
+          credentialurl: learn.microsoft.com/en-us/credentials/certifications/mcsa-sql2016-database-development-certification/
           credentialname: SQL
           details: |
             Earners of the MCSA: SQL Database Development certification have demonstrated the skills required to 
@@ -121,7 +121,7 @@ certifications:
           end:
           organization: Oracle
           credentialid:
-          credentialurl: https://education.oracle.com/oracle-certified-professional-java-se-8-programmer/trackp_357#tabs-2-1
+          credentialurl: education.oracle.com/oracle-certified-professional-java-se-8-programmer/trackp_357#tabs-2-1
           credentialname: Java
           details: |
             The Java Oracle Certified Professional (OCP) certification is a credential that demonstrates a person's 
