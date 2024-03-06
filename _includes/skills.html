@@ -1,55 +1,37 @@
-<style>
-    #skills {
-        background: url("assets/img/texture-2.svg") no-repeat center top;
-        background-size: cover;
-    }
+{% assign skills = site.data.data.skills %}
+{% if skills %}
+<section class="skills-section section">
 
-    .custom-list-item:before {
-        content: '✓';
-    }
-</style>
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ skills.title }}
+  </h2>
 
-<div id="skills">
+  <div class="summary">
+    {{ skills.summary | markdownify }}
+  </div>
 
-    <div class="container">
+  <br/>
 
-        {% if site.data.skills.skill_list.size > 0 %}
-        <div class="py-3 my-3">
-            <h1 class="text-uppercase blue-1">Skills</h1>
-            <div class="my-3">
-                <h5>{{site.data.skills.header}}</h5>
-                <h5>{{site.data.skills.subheader}}</h5>
-            </div>
+  <div class="skillset">
+
+    {% for skill in skills.toolset %}
+    <div class="item">
+
+      <h3 class="level-title">{{ skill.name }}</h3>
+
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="{{ skill.level }}">
         </div>
+      </div><!--//level-bar-->
 
+    </div><!--//item-->
+    {% endfor %}
 
-        <div class="row">
-            {% for skill in site.data.skills.skill_list %}
-            <div class="col-12 col-lg-4 mb-5">
-                <h3 class="blue-2 text-uppercase">{{ skill.name }}</h3>
-                <h5>{{ skill.description }}</h5>
-            </div>
-            {% endfor %}
-        </div>
-        {% endif %}
+  </div>
 
-
-        {% if site.data.skills.certifications.size > 0 %}
-        <div class="py-3 my-3">
-            <h1 class="text-uppercase blue-1">Certifications</h1>
-        </div>
-        <div class="row">
-            {% for certification in site.data.skills.certifications %}
-            <div class="col-12 col-lg-4 mb-5">
-                <h3 class="blue-2 text-uppercase">{{ certification.name }}</h3>
-                {% for topic in certification.topics %}
-                    <h6 class="custom-list-item mb-2">{{ topic }}</h6>
-                {% endfor %}
-            </div>
-            {% endfor %}
-        </div>
-        {% endif %}
-
-    </div>
-
-</div>
+</section><!--//skills-section-->
+{% endif %}

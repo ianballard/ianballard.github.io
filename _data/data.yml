@@ -1,0 +1,183 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: left # position of the sidebar : left or right
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Ian Ballard
+    tagline: Engineering Manager | Team Lead | Principal Software Engineer
+    avatar: profile_0.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: ian.p.ballard@gmail.com
+    phone: 845 943 1058
+    timezone: America/New York
+    linkedin: ian-ballard-85470785
+    github: ianballard
+    telegram: ianballard
+    pdf: https://ianballard.github.io/Ian%20Ballard.pdf
+
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: Native
+
+    interests:
+      title: Interests
+      info:
+        - item: Fitness
+          link:
+
+        - item: Gaming
+          link:
+
+        - item: Cooking
+          link:
+
+        - item: American Cancer Society Fundraising
+          link: http://main.acsevents.org/goto/ianballard
+
+career-profile:
+    title: Career Profile
+    summary: |
+      A seasoned software engineering leader with over seven years of experience, I have honed my skills in driving both
+      innovation and excellence across diverse software development projects. At Jahnel Group, I've been pivotal in 
+      transforming engagements into the firm's largest accounts by fostering an environment of empowerment and growth, 
+      leading to the cultivation of unstoppable engineering teams. 
+      
+      My approach is centered around mentorship, 
+      collaboration, and strategic alignment of business objectives with technical solutions, consistently achieving 
+      high team satisfaction and excellent project deliverability. My technical expertise is broad and deep, encompassing 
+      serverless web applications within the AWS ecosystem, blockchain development, and efficient Agile methodologies. 
+      I excel in creating scalable, high-quality solutions that meet the dynamic needs of businesses while fostering 
+      team development and achieving remarkable operational metrics.
+education:
+    title: Education
+    info:
+      - degree: BS in Computer Science and Applied Mathematics
+        university: University at Albany, SUNY
+        time: 2013 - 2016
+        details: |
+          Honors: Academic Merit Scholarship, Cum Laude
+
+experiences:
+    title: Experiences
+    info:
+      - role: Engineering Manager, Team Lead, & Principal Software Engineer
+        time: 2016 - Present
+        company: Jahnel Group, Schenectady, NY
+        details: |
+            - Received the "Beast Award" for logging 293 billable hours in a month, single-handedly spearheading a new project with an offshore Indian engineering team. My leadership and value transformed this engagement from only myself on the project into one of the firm's largest accounts with multiple engineering teams that became an unstoppable force through cultivating an environment of empowerment and growth. I led these multiple engineering teams, architectural decisions, code reviews, and significantly improved project deliverability and efficiency.
+            - Cultivated a culture of mentorship, and inspiration through personalized monthly 1:1s focused on career development, and daily office hours to help engineers with their current and upcoming work. Consistently facilitated opportunities for engineers to assume tech lead roles in our projects, fostering professional growth and leadership development.
+            - Led successful team expansion and recruitment, mentoring new team leads to achieve self-sufficiency within 90 days by clearly communicating expectations of new engineers and teams from day 1, and assessing progress against a comprehensive rubric every 30 days to track progress.
+            - Championed a collaborative environment through knowledge-sharing meetings and platforms, and cross-team initiatives to manage technical debt and security vulnerabilities, fostering shared responsibility and understanding as the teams grew.
+            - Acted as the principal liaison between engineering and other departments, setting up critical recurring cross-functional meetings with different stakeholders, and aligning project goals with organizational objectives. Consistently aligned business objectives with technical parameters such as cost, time, and quality to meet expectations.
+            - Utilized anonymous surveys to gauge and enhance my leadership effectiveness, consistently achieving an overall team satisfaction rating of 9.5/10.
+            - Immersed myself in key projects, becoming the subject matter expert and offering strategic guidance. Leveraged AI for swift prototype development where suitable, ensuring a seamless transition from initial concept to production-ready systems, such as multi-region support for non-native solutions like Cognito using SQS and event replication, DynamoDB stream events piped to Kinesis data streams and Firehose, and Lambda for custom transformations to private VPC resources holding sensitive data. Developed auto-generating OpenAPI specs for APIs as deployed, centralized access logging solutions across AWS Lambda log groups, latency-based routing and failover using AWS health checks, new identity and access management solutions in DynamoDB, data validation solutions on endpoints and data persistence events, and custom workflow engines to support the ever-changing landscape of user journeys in our system.
+            - Designed and implemented a robust health insurance processing service capable of elegantly handling eligibility requests across various payors. This system allows for detailed configuration of responses, seamless toggling of system components, and efficient error management and retry mechanisms, ensuring a positive user experience without any disruption. Created highly configurable ETL frameworks using AWS EventBridge, Lambda, S3, and event notifications, robust backup strategies for both custom cases like Cognito and Elastic Search, and AWS backups, disaster recovery plans, and asynchronous data migration solutions to migrate records as they are first requested to “lazy-load” migrations, markedly improving system resilience and data integrity.
+            - Redesigned release strategies to meet business needs as we scaled to multiple teams. Authored comprehensive plans and guides for the client, including a system refactor to microservices, an updated release process, and a bespoke feature flagging solution. These strategic proposals offered scalable, cost-effective alternatives to off-the-shelf solutions, significantly enhancing operational throughput while retaining high code quality. With the use of ephemeral environments in our CI/CD pipelines, comprehensive QA automation strategies, and feature flags, we maintained impressive DORA metrics (Deployment Frequency: ~3.5 times a day, Change Lead Time: 6 days, Change Failure Rate: <5%, Time to Restore: ~2.5 hours). Implemented a sprint composition strategy for each team, ensuring a balanced investment in new features, system improvements, productivity enhancements, bug fixes, and patches for consistent and efficient progress.
+            - Won "War Week MVP" by leading the discovery, planning, and design of solutions for 90% of a key client's top-priority features and issues within a week, demonstrating exceptional ability to deliver under pressure.
+      - role: Founder & Chief Information Officer (CIO)
+        time: 2021 - 2024
+        company: TuffDAO
+        details: |
+          - Engineered the launch of TuffDAO and its Volume Bond Tokens (VBT) framework, revolutionizing DeFi with a platform that simplifies portfolio management and optimizes user incentives through strategic integrations with Aave, Chainlink, and UniSwap. Leading fundraising efforts, securing $65K in funding and grants, and directed a rigorous security audit by Omnicia to ensure unmatched smart contract security and compliance.
+
+
+certifications:
+      title: Certifications
+      list:
+        - name: AWS Solutions Architect Associate
+          start: 2019
+          end:
+          organization: Amazon Web Services (AWS)
+          credentialid: RM0RQYQK32V4Q73M
+          credentialurl: https://aws.amazon.com/certification/certified-solutions-architect-associate/
+          credentialname: AWS
+          details: |
+            AWS Certified Solutions Architect - Associate showcases knowledge and skills in AWS technology, across a 
+            wide range of AWS services. The focus of this certification is on the design of cost and performance 
+            optimized solutions, demonstrating a strong understanding of the AWS Well-Architected Framework.
+        - name: MCSA SQL Database Development
+          start: 2018
+          end:
+          organization: Microsoft
+          credentialid:
+          credentialurl: https://learn.microsoft.com/en-us/credentials/certifications/mcsa-sql2016-database-development-certification/
+          credentialname: SQL
+          details: |
+            Earners of the MCSA: SQL Database Development certification have demonstrated the skills required to 
+            build and implement databases across organizations. They are qualified for a position as a database developer. 
+            The MCSA: SQL Database Development certification validates an individual's expertise in building and 
+            implementing databases across organizations, focusing on SQL Server technology for database development, 
+            including creating database solutions, tables, queries, stored procedures, and functions.
+        - name: Oracle Certified Professional, Java SE Programmer
+          start: 2017
+          end:
+          organization: Oracle
+          credentialid:
+          credentialurl: https://education.oracle.com/oracle-certified-professional-java-se-8-programmer/trackp_357#tabs-2-1
+          credentialname: Java
+          details: |
+            The Java Oracle Certified Professional (OCP) certification is a credential that demonstrates a person's 
+            proficiency in Java programming language. It assesses advanced Java skills, including understanding of 
+            Java applications, related technologies, and software development practices. This certification is 
+            designed for individuals who already have experience with Java and aims to endorse their ability to 
+            successfully build, maintain, and manipulate complex and sophisticated software systems using Java.
+
+projects:
+    title: Projects
+    intro: >
+    assignments:
+      - title: TuffDAO
+        link: "https://tuffdao.io/"
+        tagline: "A pioneering DeFi platform that simplifies portfolio management and redistributes economic incentives to users."
+
+      - title: AWS Prod Ready Blueprint
+        link: "https://github.com/ianballard/aws-prod-ready"
+        tagline: "A highly configurable starter template for quickly scaffolding production-ready systems on AWS. This project leverages serverless architecture, event-driven architecture, and it focuses on best practices for a well-architected framework at all levels."
+
+
+skills:
+    title: Skills &amp; Proficiency
+
+    summary: |
+      Specializing in serverless web applications in the AWS ecosystem, leveraging React, Python, 
+      API Gateway, Lambda, and DynamoDB as a core tech stack. Expert in CloudFront, S3, API Gateway, Cognito, 
+      Lambda, DynamoDB, Step Functions, SES, SNS, CloudWatch, Kinesis, Redshift, and Quicksight. Proficient in Java, 
+      Spring, Angular, Go, Kubernetes, and a broad array of programming languages and frameworks. Experienced with 
+      both NoSQL and relational databases including SQL Server, MySQL, PostgreSQL, and blockchain development, 
+      notably Ethereum Smart Contracts. Also fluent in Agile and Scrum methodologies.
+
+    toolset:
+      - name: AWS
+        level: 98%
+
+      - name: Python
+        level: 98%
+
+      - name: React & Javascript
+        level: 96%
+
+      - name: Java & Spring
+        level: 95%
+
+      - name: NoSQL
+        level: 94%
+
+      - name: SQL
+        level: 94%
+
+      - name: Agile & Scrum
+        level: 95%
+
+      - name: Blockchain
+        level: 65%
+
+footer: >
+

@@ -1,18 +1,38 @@
-<style>
-    #projects {
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
-</style>
+{% assign projects = site.data.data.projects %}
+{% if projects %}
+<section class="section projects-section">
 
-<div id="projects" class="container">
-    <h1 class="text-uppercase blue-1">Projects</h1>
-    <div class="row">
-        {% for project in site.data.projects %}
-        <div class="col-12 col-lg-6 mb-5">
-            <h3 class="blue-2 text-uppercase">{{ project.name }}</h3>
-            <h6>{{ project.description }}</h6>
-        </div>
-        {% endfor %}
-    </div>
-</div>
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ projects.title }}
+  </h2>
+
+  {% if projects.intro %}
+  <div class="intro">
+      <p>{{ projects.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for project in projects.assignments %}
+    <div class="item">
+
+      <span class="project-title">
+        {% if project.link %}
+        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+        {% else %}
+        {{ project.title }}
+        {% endif %}
+      </span>
+
+      {% if project.tagline %}
+      - <span class="project-tagline">{{ project.tagline }}</span>
+      {% endif %}
+
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
