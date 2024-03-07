@@ -134,15 +134,18 @@ projects:
     title: Projects
     intro: >
     assignments:
+      - title: Aptihealth
+        link: "https://www.aptihealth.com/"
+        tagline: "A telehealth application focused on transforming behavioral healthcare by partnering with health plans and health systems to provide integrated care across all levels of acuity for children, adolescents, and adults. Aptihealth offers personalized, comprehensive care plans, convenient video therapy, medication management, direct messaging with therapists, care coordination, and 24/7 support services."
       - title: TuffDAO
         link: "https://tuffdao.io/"
-        tagline: "A pioneering DeFi platform that simplifies portfolio management and redistributes economic incentives to users."
-
+        tagline: "An Ethereum based DeFi platform that simplifies portfolio management and redistributes economic incentives to users."
+      - title: KAPS (Kelmar Associates Property System)
+        link: "https://www.kelmarassoc.com/"
+        tagline: "The KAPS (Kelmar Associates Property System) unclaimed property app is a program used by various state governments in the United States to manage the administration, reporting, and claiming of unclaimed property. This system is designed to help states efficiently identify and return unclaimed property to its rightful owners."
       - title: AWS Prod Ready Blueprint
         link: "https://github.com/ianballard/aws-prod-ready"
         tagline: "A highly configurable starter template for quickly scaffolding production-ready systems on AWS. This project leverages serverless architecture, event-driven architecture, and it focuses on best practices for a well-architected framework at all levels."
-
-
 skills:
     title: Skills &amp; Proficiency
 

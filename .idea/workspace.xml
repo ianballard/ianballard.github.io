@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2c6d08e-bf3b-4bac-a84b-14892e89ca7a" name="Changes" comment="" />
+    <list default="true" id="a2c6d08e-bf3b-4bac-a84b-14892e89ca7a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ian Ballard.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Ian Ballard.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/data.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/data.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/Ian Ballard.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_site/Ian Ballard.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/print.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/print.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,20 +31,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/iballard/workspace/ianballard.github.io",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/iballard/workspace/ianballard.github.io&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -59,6 +66,9 @@
       <updated>1709599502812</updated>
       <workItem from="1709599503958" duration="5270000" />
       <workItem from="1709687312292" duration="13451000" />
+      <workItem from="1709754713704" duration="412000" />
+      <workItem from="1709816995839" duration="46000" />
+      <workItem from="1709817151842" duration="958000" />
     </task>
     <servers />
   </component>
