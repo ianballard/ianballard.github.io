@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Ian Ballard
-    tagline: Engineering Manager | Team Lead | Principal Software Engineer
+    tagline: Engineering Manager | Principal Software Engineer
     avatar: profile_0.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -68,7 +68,7 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Engineering Manager, Team Lead, & Principal Software Engineer
+      - role: Engineering Manager & Principal Software Engineer
         time: 2016 - Present
         company: Jahnel Group, Schenectady, NY
         details: |
@@ -96,7 +96,7 @@ certifications:
           start: 2019
           end:
           organization: Amazon Web Services (AWS)
-          credentialid: RM0RQYQK32V4Q73M
+          credentialid:
           credentialurl: aws.amazon.com/certification/certified-solutions-architect-associate/
           credentialname: AWS
           details: |
@@ -116,7 +116,7 @@ certifications:
             The MCSA: SQL Database Development certification validates an individual's expertise in building and 
             implementing databases across organizations, focusing on SQL Server technology for database development, 
             including creating database solutions, tables, queries, stored procedures, and functions.
-        - name: Oracle Certified Professional, Java SE Programmer
+        - name: Oracle Certified Professional, Java
           start: 2017
           end:
           organization: Oracle
