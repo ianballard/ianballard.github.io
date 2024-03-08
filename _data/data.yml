@@ -16,7 +16,7 @@ sidebar:
     email: ian.p.ballard@gmail.com
     phone: 845 943 1058
     timezone: America/New York
-    linkedin: ian-ballard-85470785
+    linkedin: ian-p-ballard
     github: ianballard
     telegram: ianballard
     pdf: https://ianballard.github.io/Ian%20Ballard.pdf
@@ -37,6 +37,9 @@ sidebar:
           link:
 
         - item: Cooking
+          link:
+
+        - item: Real Estate
           link:
 
         - item: American Cancer Society Fundraising
