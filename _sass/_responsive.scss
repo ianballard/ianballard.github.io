@@ -21,14 +21,20 @@
     position: static;
     display: block;
     margin-top: 5px;
+    white-space: nowrap;
   }
 
   .main-wrapper .upper-row {
     margin-bottom: 0;
   }
+
+  .fa-stack {
+    display: none;
+  }
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
 }
 
 /* Medium devices (desktops, 992px and up) */
