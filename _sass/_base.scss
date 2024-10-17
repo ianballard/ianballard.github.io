@@ -210,16 +210,19 @@ p {
     }
   .time,
   .cert-url {
-    position: absolute;
-    right: 0;
-    top: 0;
+//     position: absolute;
+//     right: 0;
+//     top: 0;
     color: $text-grey;
+    margin-bottom: 10px;
     //flex: 25%;
   }
-  .company,
   .university,
   .cert-org {
     margin-bottom: 10px;
+    color: $text-grey;
+  }
+  .company{
     color: $text-grey;
   }
 
