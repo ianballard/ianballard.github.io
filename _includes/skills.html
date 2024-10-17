@@ -1,5 +1,41 @@
-{% assign skills = site.data.data.skills %}
-{% if skills %}
+{% assign core_skills = site.data.data.core_skills %}
+{% assign additional_skills = site.data.data.additional_skills %}
+
+{% if core_skills %}
+<section class="skills-section section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-code fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ core_skills.title }}
+  </h2>
+
+  <div class="skillset">
+
+    {% for skill in core_skills.skill_categories %}
+    <div class="item">
+
+      <div class="meta">
+        <div class="second-upper-row">
+          <h3 class="cert-title">{{ skill.name }}</h3>
+        </div>
+        <!--//upper-row-->
+      </div>
+
+      <div class="details">{{ skill.details | markdownify }}</div>
+
+    </div><!--//item-->
+    {% endfor %}
+
+  </div>
+
+</section><!--//skills-section-->
+{% endif %}
+
+
+{% if additional_skills %}
 <section class="skills-section section">
 
   <h2 class="section-title">
@@ -7,26 +43,22 @@
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
     </span>
-    {{ skills.title }}
+    {{ additional_skills.title }}
   </h2>
-
-  <div class="summary">
-    {{ skills.summary | markdownify }}
-  </div>
-
-  <br/>
 
   <div class="skillset">
 
-    {% for skill in skills.toolset %}
+    {% for skill in additional_skills.skill_categories %}
     <div class="item">
 
-      <h3 class="level-title">{{ skill.name }}</h3>
-
-      <div class="level-bar">
-        <div class="level-bar-inner" data-level="{{ skill.level }}">
+      <div class="meta">
+        <div class="second-upper-row">
+          <h3 class="cert-title">{{ skill.name }}</h3>
         </div>
-      </div><!--//level-bar-->
+        <!--//upper-row-->
+      </div>
+
+      <div class="details">{{ skill.details | markdownify }}</div>
 
     </div><!--//item-->
     {% endfor %}

@@ -23,11 +23,21 @@
 
     </div><!--//meta-->
 
-    {% if experience.details %}
-    <div class="details">
-      {{ experience.details | markdownify }}
-    </div><!--//details-->
-    {% endif %}
+    {% for relevant_skill in experience.relevant_skills %}
+    <div class="item">
+      <div class="meta">
+        <div class="second-upper-row">
+          <h3 class="relevant-skill-title">{{ relevant_skill.name }}</h3>
+        </div>
+        <!--//upper-row-->
+      </div>
+      <!--//meta-->
+
+      <div class="details">{{ relevant_skill.details | markdownify }}</div>
+    </div>
+    <!--//item-->
+    {% endfor %}
+
 
   </div><!--//item-->
   {% endfor %}

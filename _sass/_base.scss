@@ -180,7 +180,7 @@ p {
   .experiences-section,
   .educations-section {
     .item {
-      margin-bottom: 30px;
+      margin-bottom: 15px;
     }
   }
   .upper-row,
@@ -200,6 +200,14 @@ p {
     font-weight: 500;
     flex: 75%;
   }
+  .relevant-skill-title{
+      color: $text-color;
+      font-size: 14px;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-weight: 500;
+      flex: 75%;
+    }
   .time,
   .cert-url {
     position: absolute;
